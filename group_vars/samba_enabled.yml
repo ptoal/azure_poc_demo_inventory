@@ -1,0 +1,5 @@
+---
+rhel8_cis_3_3_1: false
+samba_settings:
+  tcp_window: 1234
+
