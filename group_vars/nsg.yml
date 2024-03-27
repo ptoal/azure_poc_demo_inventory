@@ -1,0 +1,11 @@
+---
+nsg_config:
+  rg: azure_poc_ptoal
+  name: testnsg
+  rules:
+    - name: allow-ssh
+      protocol: Tcp
+      destination_port_range: 22
+      access: Allow
+      priority: 1001
+      direction: Inbound

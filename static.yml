@@ -3,6 +3,7 @@ windows:
   children:
     ansible_connection_ssh:
     ansible_connection_winrm:
+nsg:
 cis_hardening:
   children:
     samba_enabled:
