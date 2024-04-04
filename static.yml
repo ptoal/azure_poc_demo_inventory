@@ -8,7 +8,3 @@ nsg:
 cis_hardening:
   children:
     samba_enabled:
-      hosts:
-        dev1234:
-        dev5678:
-        test873_f737:
